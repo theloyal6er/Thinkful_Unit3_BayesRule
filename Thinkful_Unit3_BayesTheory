@@ -22,8 +22,8 @@ P(- | no disease) = .90
 
 Question #4
 P(+ | did not have disease) + P(- | had the disease)
-## This was my initial thought on what a misclassification of the disease was - positive test but did not have the disease (false-
-## positive) but also a negative test, but had the disease.
+## This was my initial thought on what a misclassification of the disease was - positive test but did not have the disease 
+## (false-positive) but also a negative test, but had the disease.
 P(+ | did not have disease) = false-positive to the non-sufferer = .10
 P(- | had the disease) = (had the disease | -) * P(-) / P(had the disease)
 P(- | had the disease) = .02 * .90 / .995 = .01809
