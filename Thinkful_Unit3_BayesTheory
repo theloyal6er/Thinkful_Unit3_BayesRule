@@ -2,8 +2,8 @@
 .02 = negative to sufferer
 .10 = (false positive) to non-sufferer
 .90 = negative to non-sufferer
-.995 = have disease
-.005 = don't have disease
+.995 = don't have disease
+.005 = have disease
 
 Question #1
 P(+) = (positive to sufferer * have the disease) + (false positive to non-sufferer * don't have disease)
