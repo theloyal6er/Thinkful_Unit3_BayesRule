@@ -7,7 +7,7 @@
 
 Question #1
 P(+) = (positive to sufferer * have the disease) + (false positive to non-sufferer * don't have disease)
-P(+) = (.98 * .995) + (.10 * .005) = .1044
+P(+) = (.98 * .005) + (.10 * .995) = .1044
 P(-) = (negative to sufferer * have the disease) + (negative to non-sufferer * don't have disease)
 P(-) = (.90 * .995) + (.90 * .005) = .8955 + .005 = .90
 
@@ -28,6 +28,11 @@ P(+ | did not have disease) = false-positive to the non-sufferer = .10
 P(- | had the disease) = (had the disease | -) * P(-) / P(had the disease)
 P(- | had the disease) = .02 * .90 / .995 = .01809
 P(+ | did not have disease) + P(- | had the disease) = .10 + .01809 = .118
+
+DISCUSSION WITH MENTOR:
+P(+ | did not have disease) *  P(no disease) + P(- | had the disease) * P(disease)
+= .10 * .995 + .01809 * .005
+= .0996
 
 ANSWER:
 Misclassify the person = 1 - (.98*.005 + .9*.995) = .0996
